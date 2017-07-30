@@ -1,15 +1,19 @@
 #!/bin/bash
-echo "Hello, TWJH"
-echo "This script will download the following" 
-echo "* Nodejs Verson Manager to enable to you control nodejs versions"
-echo "* A recent version of nodejs and the Node Package Manager npm \n\n"
 
-echo "Using homebrew to install nvm"
+blue=$(tput setaf 4)
+normal=$(tput sgr0)
+
+printf  "%40s\n" "Hello ${blue}TWJH${normal}"
+printf  "This script will download the following" 
+printf  "* Nodejs Verson Manager to enable to you control nodejs versions"
+printf  "* A recent version of nodejs and the Node Package Manager npm \n\n"
+
+printf  "Using homebrew to install nvm"
 brew install nvm
 
-echo "\nMaking an nvm folder in user directory"
+printf  "\nMaking an nvm folder in user directory"
 mkdir ~/.nvm
 
-echo "\nInstalling latest stable version of nodejs and npm so we get the npx utility"
+printf  "\nInstalling latest stable version of nodejs and npm so we get the npx utility"
 /usr/local/opt/nvm/nvm.sh install stable
 
