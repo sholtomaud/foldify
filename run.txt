@@ -1,4 +1,6 @@
 #!/bin/bash
-echo "Hello, world!"
-read -p "What is your name? " name
-echo "Hello, ${name}!"
+echo "Hello, TWJH"
+echo "This script will download the following" 
+echo "* Nodejs Verson Manager to enable to you control nodejs versions"
+
+brew install nvm
