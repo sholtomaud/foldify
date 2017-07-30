@@ -2,14 +2,14 @@
 echo "Hello, TWJH"
 echo "This script will download the following" 
 echo "* Nodejs Verson Manager to enable to you control nodejs versions"
-echo "* A recent version of nodejs and the Node Package Manager npm"
+echo "* A recent version of nodejs and the Node Package Manager npm \n\n"
 
 echo "Using homebrew to install nvm"
 brew install nvm
 
-echo "Making an nvm folder in user directory"
+echo "\nMaking an nvm folder in user directory"
 mkdir ~/.nvm
 
-echo "Installing latest stable version of nodejs and npm so we get the npx utility"
-nvm install stable
+echo "\nInstalling latest stable version of nodejs and npm so we get the npx utility"
+/usr/local/opt/nvm/nvm.sh install stable
 
