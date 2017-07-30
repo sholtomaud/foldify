@@ -3,7 +3,7 @@
 blue=$(tput setaf 4)
 normal=$(tput sgr0)
 
-printf  "%40s\n" "Hello ${blue}TWJH${normal}"
+printf  "Hello ${blue}TWJH${normal}"
 printf  "This script will download the following" 
 printf  "* Nodejs Verson Manager to enable to you control nodejs versions"
 printf  "* A recent version of nodejs and the Node Package Manager npm \n\n"
