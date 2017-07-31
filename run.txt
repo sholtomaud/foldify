@@ -20,3 +20,4 @@ printf  "\nInstalling latest stable version of nodejs and npm so we get the npx 
 brew cask install basictex
 sudo tlmgr install calculator circuitikz setspace amsmath mathtools amssymb booktabs tabularx bondgraphs pgfplots bm listings multirow graphicx tikz textcomp color adjustbox collectbox
 
+apm i wordcount compare-files file-icons format-shell jscad-viewer minimap multi-paste zotero-picker jupyter-notebook 
