@@ -18,5 +18,5 @@ printf  "\nInstalling latest stable version of nodejs and npm so we get the npx 
 /usr/local/opt/nvm/nvm.sh install stable
 
 brew cask install basictex
-sudo tlmgr install calculator circuitikz amsmath mathtools amssymb booktabs tabularx bondgraphs pgfplots bm listings multirow graphicx tikz textcomp color adjustbox collectbox
+sudo tlmgr install calculator circuitikz setspace amsmath mathtools amssymb booktabs tabularx bondgraphs pgfplots bm listings multirow graphicx tikz textcomp color adjustbox collectbox
 
