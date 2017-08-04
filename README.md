@@ -10,7 +10,7 @@ The run.txt file is a batch file which will install the following packages to an
 
 # How to run
 
-To run this package navigate to a terminal window and run the following at the command prompt
+To run this package navigate to a terminal window and run the following at the command prompt. It may ask to for a password so that it can install Basictex 
 
 ```bash
 
@@ -18,3 +18,4 @@ To run this package navigate to a terminal window and run the following at the c
 
 ```
 
+You might need to run this as a sudo to install Basictex and its packages. In which case you would run
