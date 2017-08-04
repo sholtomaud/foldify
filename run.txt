@@ -5,8 +5,11 @@ normal=$(tput sgr0)
 
 printf  "Hello ${blue}TWJH${normal}"
 printf  "This script will download the following" 
-printf  "* Nodejs Verson Manager to enable to you control nodejs versions"
-printf  "* A recent version of nodejs and the Node Package Manager npm \n\n"
+printf  "* ${blue}NVM${normal} - Nodejs Verson Manager to enable to you control nodejs versions"
+printf  "* ${blue}Nodejs${normal} - A recent version of nodejs and the Node Package Manager npm"
+printf  "* ${blue}Basictex${normal} - for Latex functionality on OSX"
+printf  "* ${blue}tex packages${normal} - Some latex packages that might come in handy (may need password)"
+printf  "* ${blue}Atom packages${normal} - Some Atom packages that can be helpful"
 
 printf  "Using homebrew to install nvm"
 brew install nvm
